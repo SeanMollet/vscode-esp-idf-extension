@@ -26,6 +26,7 @@ export interface IVersion {
   win32: IFileInfo;
   win64: IFileInfo;
   macos: IFileInfo;
+  macos_arm64: IFileInfo;
   linux_am64: IFileInfo;
   linux_i686: IFileInfo;
 }
